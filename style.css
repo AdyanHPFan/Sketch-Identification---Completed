@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(black, purple, blue, aqua) ;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-family: 'Lilita One', cursive;
+}
+
+#label{
+    color: violet;
+    font-size: 40px;
+    font-family: 'Neonderthaw', cursive;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#confidence{
+    color: thistle;
+    font-size: 40px;
+    font-family: 'Neonderthaw', cursive;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#show_sketch{
+    float: right;
+}
+
+canvas{
+    border: 5px solid greenyellow;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+ from{box-shadow: 1px 1px 38px grey;}
+ to{box-shadow: 1px 1px 38px whitesmoke;}
+}
+
